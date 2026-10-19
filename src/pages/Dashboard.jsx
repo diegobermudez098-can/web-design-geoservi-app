@@ -12,7 +12,7 @@ export default function Dashboard() {
 
   return (
     <section>
-      <h1>Solicitudes cercanas</h1>
+      <h1>Solicitudes cercanas a ti</h1>
       {error && <p className="error">{error}</p>}
       <div className="lista">
         {solicitudes.map((s) => (
